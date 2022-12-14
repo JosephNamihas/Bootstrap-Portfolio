@@ -1,7 +1,6 @@
 :root {
   --center-align: center;
   --navbar-font: Arial, Helvetica, sans-serif;
-  --background-color: #caf0f8;
   --container-font-color: navy;
   --border-color: black;
   --project-borders: 5px solid black;
@@ -20,7 +19,8 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: #caf0f8;
+  background-color: silver;
+
 }
 
 h1,
@@ -46,10 +46,6 @@ p {
   width: 100%;
   border: 3px solid var(--border-color);
   border-radius: 20px;
-}
-
-.aboutme-link, .projects-link, .contactme-link {
-padding-left: 10px;
 }
 
 .name {
@@ -105,7 +101,6 @@ padding-left: 10px;
 
   display: grid;
   color: var(--container-font-color);
-  background-color: #caf0f8;
   margin-top: 1rem;
   margin-left: 20%;
   height: 100vw;

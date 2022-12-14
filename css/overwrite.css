@@ -7,8 +7,10 @@
   display: inline;
 }
 
+
 .customNav {
   background-color: silver;
+  border-bottom: 2px solid #03045e;
 }
 
 .nav-link {
@@ -18,18 +20,28 @@
   float: right;
 }
 
+.btn-about, .btn-projects, .btn-contact {
+  display: inline;
+  align-items: right;
+  float: right;
+  padding-left: 1rem;
+}
+
+
+.btn {
+  border: 1px solid white;
+}
+
 /* --- Jumbotron ---*/
 
 /*The area around the h1 and p*/
-.container {
-  border: 2px solid black;
-}
 
 /*The entier banner*/
 
 .jumbotron-fluid {
   background-color: #8ecae6;
   color: #023e8a;
+  border-bottom: 2px solid #023e8a;
 }
 
 .display-4 {
