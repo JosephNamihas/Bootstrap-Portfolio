@@ -7,26 +7,10 @@
   display: inline;
 }
 
-
 .customNav {
   background-color: silver;
   border-bottom: 2px solid #03045e;
 }
-
-.nav-link {
-  display: inline;
-  padding-left: 20%;
-  color: black;
-  float: right;
-}
-
-.btn-about, .btn-projects, .btn-contact {
-  display: inline;
-  align-items: right;
-  float: right;
-  padding-left: 1rem;
-}
-
 
 .btn {
   border: 1px solid white;
@@ -49,5 +33,5 @@
 
 }
 
-
+/* --- Projects --- */
 

@@ -20,9 +20,10 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
 
-          <a class="btn btn-primary btn-about" href="#about-me" role="button">About Me</a>
-          <a class="btn btn-primary btn-projects" href="#projects" role="button">Projects</a>
-          <a class="btn btn-primary btn-contact" href="#contact-me" role="button">Contact Me</a>
+          <!-- TO DO: Align the buttons to right-->
+          <a class="btn btn-primary btn-about mr-1" href="#about-me" role="button">About Me</a>
+          <a class="btn btn-primary btn-projects mr-1" href="#projects" role="button">Projects</a>
+          <a class="btn btn-primary btn-contact mr-1" href="#contact-me" role="button">Contact Me</a>
 
         </div>
       </div>
@@ -37,22 +38,26 @@
     </div>
   </div>
 
-    <!-- portfolio container-->
-      <section class="projects-container">
-        <div id="about-me"><h2>Web Developer Portfolio</h2><p>My name is Joe and I'm currently an IT Engineer from Brighton. I'm studying on a 16 week bootcamp to get me ready for a career transition into Web Development. This portfolio is a work in progress. I intend to add numerous features and keep my projects up to date throughout the course.</p>
-          <p>If you would like to work with me, please see my social media links at the bottom of the page</p></div>
-        <div id="my-picture"><img src="images/joseph-namihas.png" alt="Picture of me"></div>
+  <!-- About Me Section with CSS Flexbox -->
 
-        <div id="projects" class="projects"><h2>My Projects</h2></div>
+  <div class="about-me">
 
-        <div id ="project1"><a href="https://josephnamihas.github.io/module_one_challenge/" alt="Horiseon Refactor"><img class="horiseon-project" src="images/horiseon-banner.png"><figcaption>Horiseon Project</figcaption></a></div>
 
-        <div id ="project2"><a href="https://josephnamihas.github.io/prework-study-guide/" alt="Prework Study Sheet"><img class="pre-work-project" src="images/study-guide.png"><figcaption>Study Guide</figcaption></a></div>
-        
-        <div id ="project3"><img class="work-in-progress" src="images/wip.png" alt="Work in Progress"><figcaption>Work In Progress</figcaption></a></div>
-      </section>
 
-    <!-- contact me -->
+
+  </div>
+
+  <!-- Project Section with Thumbnails -->
+  <ul class="project-thumbnails">
+    <li class="span4">
+      <a href="#" class="thumbnail">
+        <img data-src="holder.js/300x200" alt="">
+      </a>
+    </li>
+    ...
+  </ul>
+
+
     <section id="contact-me">
       <h2>Contact Me</h2> 
         <div class="social-icons">
