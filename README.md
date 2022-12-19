@@ -1,8 +1,9 @@
-# Title
+# Portfolio 2.0
 
-## Heading - Description
+## Boot Strap Portfolio
 
-
+## Description
+After learning more about Bootstrap I decided to go back and edit my main portfolio and incorporate some of the Bootstrap elements I learned
 
 ## Challenges Faced
 

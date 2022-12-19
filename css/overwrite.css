@@ -18,20 +18,73 @@
 
 /* --- Jumbotron ---*/
 
-/*The area around the h1 and p*/
-
-/*The entier banner*/
-
 .jumbotron-fluid {
   background-color: #8ecae6;
   color: #023e8a;
   border-bottom: 2px solid #023e8a;
 }
 
-.display-4 {
+.display-1 {
   font-style: bold; 
+}
+/*The area around the h1 and p */
 
+#about-me {
+  margin-left: 20%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.aboutme-bio {
+  display: flex;
+  border: 2px solid black;
+}
+
+.aboutme-picture {
+  display: flex;
+  border: 2px solid black;
+}
+
+hr {
+  border: 1rem solid #8ecae6;
+  border-radius: 20px;
+  margin-left: 20%;
 }
 
 /* --- Projects --- */
 
+#my-projects {
+  margin-left: 20%;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1;
+  grid-template-areas:
+  
+      "item1 item2 item3 item4"
+      
+}
+
+.grid-item1 {
+grid-area: item1;
+}
+
+.grid-item2 {
+  grid-area: item2;
+}
+
+.grid-item3 {
+  grid-area: item3;
+}
+
+.grid-item4 {
+  grid-area: item4;
+}
