@@ -21,6 +21,7 @@
 .jumbotron-fluid {
   background-color: #8ecae6;
   color: #023e8a;
+  border-top:2px solid #023e8a;
   border-bottom: 2px solid #023e8a;
 }
 
@@ -75,6 +76,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 2, 1fr;
+  gap: 1rem;
   grid-template-areas:
   
       "item1 item2" 
@@ -103,6 +105,7 @@ grid-area: item1;
 
 #skills-section {
   margin-left: 20%;
+  margin-bottom: 20%;
 }
 
 .aboutme-skills {
@@ -111,14 +114,12 @@ grid-area: item1;
 /* --- Contact Me ---*/
 
 #contact-me {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 10%;
   background: silver;
   border-top: 2px solid #023e8a;
 }
 
-/* --- Footer --- */
 footer {
-  margin-left: 10%;
-  background: silver;
+  text-align: center;
 }
