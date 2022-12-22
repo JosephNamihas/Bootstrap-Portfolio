@@ -75,7 +75,6 @@ p {
 
 #about-me {
   grid-area: about-me;
-  border-left: 1px solid black;
 }
 
 #about-me p {

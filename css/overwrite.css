@@ -27,10 +27,16 @@
 .display-1 {
   font-style: bold; 
 }
-/*The area around the h1 and p */
+
+
+/* --- About Me ---*/ 
 
 #about-me {
   margin-left: 20%;
+}
+
+.header-aboutme {
+  display: block;
 }
 
 .flex-container {
@@ -38,12 +44,14 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 1rem;
+  margin-right: 5%;
+  border-left: 2px solid black;
 }
 
 .aboutme-bio {
   display: flex;
-  border: 2px solid black;
 }
 
 .aboutme-picture {
@@ -60,17 +68,17 @@ hr {
 /* --- Projects --- */
 
 #my-projects {
-  margin-left: 20%;
+  margin-left: 30%;
 }
 
 .grid-container {
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2, 1fr;
   grid-template-areas:
   
-      "item1 item2 item3 item4"
+      "item1 item2" 
+      "item3 item4"
       
 }
 
@@ -88,4 +96,29 @@ grid-area: item1;
 
 .grid-item4 {
   grid-area: item4;
+}
+
+
+/* --- Skills --- */
+
+#skills-section {
+  margin-left: 20%;
+}
+
+.aboutme-skills {
+
+}
+/* --- Contact Me ---*/
+
+#contact-me {
+  margin-top: 10%;
+  margin-left: 10%;
+  background: silver;
+  border-top: 2px solid #023e8a;
+}
+
+/* --- Footer --- */
+footer {
+  margin-left: 10%;
+  background: silver;
 }
