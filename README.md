@@ -1,6 +1,4 @@
-# Portfolio 2.0
-
-## Boot Strap Portfolio
+# Portfolio 2.0 - Boot Strap Portfolio
 
 ## Description
 After learning more about Bootstrap I decided to go back and edit my main portfolio and incorporate some of the Bootstrap elements I learned. Like my previous portfolio published, it will be used as an advertisement of my skills to potential employers / customers. 
@@ -39,11 +37,12 @@ Throughout the next few weeks and months, I'll be returning to this portfolio, c
 ## Installation
 
 Run the website by following the GitGub Pages link: 
+https://josephnamihas.github.io/Bootstrap-Portfolio/
 
 
 ## Useage
 
-Insert website screenshot / functionality demos
+![image](/images/portfolio_siteshot.png)
 
 ## Credits
 
