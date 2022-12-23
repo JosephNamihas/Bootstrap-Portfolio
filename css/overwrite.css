@@ -1,3 +1,14 @@
+/* Variables */
+:root {
+
+  --margin-width: 20%;
+  --margin-width-XL: 30%;
+  --color-scheme-dark-blue: #03045e;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /* --- NavBar ---*/
 .navbar-brand {
@@ -9,7 +20,7 @@
 
 .customNav {
   background-color: silver;
-  border-bottom: 2px solid #03045e;
+  border-bottom: 2px solid var(--color-scheme-dark-blue);
 }
 
 .btn {
@@ -33,7 +44,7 @@
 /* --- About Me ---*/ 
 
 #about-me {
-  margin-left: 20%;
+  margin-left: var(--margin-width);
 }
 
 .header-aboutme {
@@ -69,7 +80,7 @@ hr {
 /* --- Projects --- */
 
 #my-projects {
-  margin-left: 30%;
+  margin-left: var(--margin-width-XL);
 }
 
 .grid-container {
@@ -104,20 +115,29 @@ grid-area: item1;
 /* --- Skills --- */
 
 #skills-section {
-  margin-left: 20%;
-  margin-bottom: 20%;
+  margin-left: var(--margin-width);
+  margin-bottom: 5%;
 }
 
-.aboutme-skills {
 
+.skills-learnt, .skills-tolearn {
+  margin-bottom: 5%;
 }
+
+
 /* --- Contact Me ---*/
 
 #contact-me {
-  margin-top: 5%;
-  margin-left: 10%;
-  background: silver;
-  border-top: 2px solid #023e8a;
+  text-align: left;
+  margin-left: 0% !important;
+} 
+
+.fab:hover , .fa:hover {
+  color: var(--color-scheme-dark-blue);
+}
+
+.fa-free-code-camp:hover {
+  color: white !important;
 }
 
 footer {

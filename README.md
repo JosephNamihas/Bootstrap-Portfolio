@@ -3,15 +3,37 @@
 ## Boot Strap Portfolio
 
 ## Description
-After learning more about Bootstrap I decided to go back and edit my main portfolio and incorporate some of the Bootstrap elements I learned
+After learning more about Bootstrap I decided to go back and edit my main portfolio and incorporate some of the Bootstrap elements I learned. Like my previous portfolio published, it will be used as an advertisement of my skills to potential employers / customers. 
+
+I removed at least one of my projects from the previous portfolio as I believed it wasn't the best advertisement of my current skills. I have instead opted to post my GitHub as a main project.
+
+My motivation for this project was mainly to build upon the design of my previous portfolio. I'm now far happier with the design after incoporating Bootstrap elements. It looks far more professional. I'm still not 100% happy with the responsiveness. I will continue to build upon this during the bootcamp.
+
+At the time of publishing this portfolio, I am confident in my Bootstrap skills - or at least, to the level that I can confidently figure out what is wrong and how to fix it!
 
 ## Challenges Faced
 
-### Challenge 1
+### Allignment and Sizing
 
-### Challenge 2
+My main issue with CSS, is that it can be a pain to manage the sizing and positioning of different elements. Sometimes I feel like I have to rewrite a large portion of my code so that everything fits in certain containers. It feels like a puzzle, but like everything programming related so far, it's the best feeling once it's fixed!
+
+### Bootstrap Grid Columns
+
+I didn't quite understand the col elements when first learning Bootstrap. I understand that the page eqauls up to 12 columns, but when it comes to making your CSS Grid responsive and using different col elements to refer to different screen sizes, I found it got quite complicated.
+
+### Images
+
+Definitley the most tedious part of the project. 
+
+<!-- More info here about how I got past this issue -->
+
+### Messy but Functional
+
+That's how I would describe this current portfolio. It seems to be functional but could probably be cleaned up significently. 
 
 ## For Next Time
+
+Throughout the next few weeks and months, I'll be returning to this portfolio, cleaning it up and adding new elements / javaScript components.
 
 ## Installation
 
@@ -23,6 +45,9 @@ Run the website by following the GitGub Pages link:
 Insert website screenshot / functionality demos
 
 ## Credits
+
+https://tinywow.com/ - For resizing images
+https://getbootstrap.com/2.3.2/components.html - For components and easy to follow guides
 
 ## License 
 
