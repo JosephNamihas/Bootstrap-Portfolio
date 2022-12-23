@@ -23,17 +23,18 @@ I didn't quite understand the col elements when first learning Bootstrap. I unde
 
 ### Images
 
-Definitley the most tedious part of the project. 
-
-<!-- More info here about how I got past this issue -->
+Definitley the most tedious part of the project. I had to resize my images to make them work responsivley and not look too stretched / distorted. I used a website called https://tinywow.com/ to accomplish this.
 
 ### Messy but Functional
 
-That's how I would describe this current portfolio. It seems to be functional but could probably be cleaned up significently. 
+That's how I would describe this current portfolio. It seems to be functional but could probably be cleaned up significently. The overwrite.css is fine, but a lot of the original style.css is redundant. There may be a few conflicting elements / selectors. 
 
 ## For Next Time
 
-Throughout the next few weeks and months, I'll be returning to this portfolio, cleaning it up and adding new elements / javaScript components.
+Throughout the next few weeks and months, I'll be returning to this portfolio, cleaning it up and adding new elements / javaScript components. My new portfolio will be fine to build on. I hope to add a CV section in the 'Skills and CV' section. At the moment, my CV is not built up enough to advertise.
+
+- Use a Modal to advertise my CV and then provide a link to download it.
+- Add two more project panels to make the grid 3 x 2. 
 
 ## Installation
 
