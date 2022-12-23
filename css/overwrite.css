@@ -1,8 +1,8 @@
 /* Variables */
 :root {
 
-  --margin-width: 20%;
-  --margin-width-XL: 30%;
+  --margin-width: 20vw;
+  --margin-width-XL: 30vw;
   --color-scheme-dark-blue: #03045e;
 }
 
@@ -10,14 +10,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  height: 100%;
+  width: 100%;
+}
 
 /* --- NavBar ---*/
-.navbar-brand {
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  display: inline;
-}
 
 .customNav {
   background-color: silver;

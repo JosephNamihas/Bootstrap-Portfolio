@@ -27,6 +27,11 @@ Definitley the most tedious part of the project. I had to resize my images to ma
 
 That's how I would describe this current portfolio. It seems to be functional but could probably be cleaned up significently. The overwrite.css is fine, but a lot of the original style.css is redundant. There may be a few conflicting elements / selectors. 
 
+### Responsivness
+
+Spent a lot of time figuring out why a lot of my components were not responsive.
+
+
 ## For Next Time
 
 Throughout the next few weeks and months, I'll be returning to this portfolio, cleaning it up and adding new elements / javaScript components. My new portfolio will be fine to build on. I hope to add a CV section in the 'Skills and CV' section. At the moment, my CV is not built up enough to advertise.
