@@ -9,6 +9,8 @@ My motivation for this project was mainly to build upon the design of my previou
 
 At the time of publishing this portfolio, I am confident in my Bootstrap skills - or at least, to the level that I can confidently figure out what is wrong and how to fix it!
 
+I did deviate from the original design slightly, but generally it follows the same pattern. I did not utilise the footer much as my contact me section was large enough to have it's own area in the body.
+
 ## Challenges Faced
 
 ### Allignment and Sizing
@@ -29,7 +31,12 @@ That's how I would describe this current portfolio. It seems to be functional bu
 
 ### Responsivness
 
-Spent a lot of time figuring out why a lot of my components were not responsive.
+Spent a lot of time figuring out why a lot of my components were not responsive. I did not use media queries at all, but found that the width of certain elements were not responsive on mobile devices
+
+For example, the Jumbotron banners.
+
+While I tried to avoid using a media query as requested for. I added one for mobile phones as I was having real trouble without.
+
 
 
 ## For Next Time
@@ -38,6 +45,7 @@ Throughout the next few weeks and months, I'll be returning to this portfolio, c
 
 - Use a Modal to advertise my CV and then provide a link to download it.
 - Add two more project panels to make the grid 3 x 2. 
+- Continue to work on the responsivness.
 
 ## Installation
 
