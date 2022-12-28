@@ -17,13 +17,9 @@ I did deviate from the original design slightly, but generally it follows the sa
 
 My main issue with CSS, is that it can be a pain to manage the sizing and positioning of different elements. Sometimes I feel like I have to rewrite a large portion of my code so that everything fits in certain containers. It feels like a puzzle, but like everything programming related so far, it's the best feeling once it's fixed!
 
-### Bootstrap Grid Columns
-
-I didn't quite understand the col elements when first learning Bootstrap. I understand that the page eqauls up to 12 columns, but when it comes to making your CSS Grid responsive and using different col elements to refer to different screen sizes, I found it got quite complicated.
-
 ### Images
 
-Definitley the most tedious part of the project. I had to resize my images to make them work responsivley and not look too stretched / distorted. I used a website called https://tinywow.com/ to accomplish this.
+Definitley one of the most tedious part of the project. I had to resize my images to make them work responsivley and not look too stretched / distorted. I used a website called https://tinywow.com/ to accomplish this.
 
 ### Messy but Functional
 
@@ -31,13 +27,11 @@ That's how I would describe this current portfolio. It seems to be functional bu
 
 ### Responsivness
 
-Spent a lot of time figuring out why a lot of my components were not responsive. I did not use media queries at all, but found that the width of certain elements were not responsive on mobile devices
+Spent a lot of time figuring out why a lot of my components were not responsive. I did not use media queries at all at first, but found that the width of certain elements were not responsive on mobile devices
 
 For example, the Jumbotron banners.
 
 While I tried to avoid using a media query as requested for. I added one for mobile phones as I was having real trouble without.
-
-
 
 ## For Next Time
 
@@ -59,8 +53,8 @@ https://josephnamihas.github.io/Bootstrap-Portfolio/
 
 ## Credits
 
-https://tinywow.com/ - For resizing images
-https://getbootstrap.com/2.3.2/components.html - For components and easy to follow guides
+- https://tinywow.com/ - For resizing images
+- https://getbootstrap.com/2.3.2/components.html - For components and easy to follow guides
 
 ## License 
 
